@@ -1,0 +1,8 @@
+msg = input('Digite algo: ')
+print('Sua mensagem é do tipo ', type(msg))
+print('Sua mensagem tem letras: ', msg.isalpha())
+print('Sua mensagem tem números: ', msg.isnumeric())
+print('Sua mensagem tem letras e/ou números: ', msg.isalnum())
+print('Sua mensagem está em maiúsculo: ', msg.isupper())
+print('Sua mensagem está em minúsculo: ', msg.islower())
+print('Sua mensagem é printavel: ', msg.isprintable())
